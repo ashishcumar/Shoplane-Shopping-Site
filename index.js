@@ -15,7 +15,7 @@ function fetchApi() {
       function creatbox(key) {
         const code = `
       <li class="box" id="${key + 1}"><a
-      href ="Product.html?product_id=${key + 1}">
+      href ="PRODUCT.html?product_id=${key + 1}">
       <img id="preview" src="${data[key].preview}"> 
       <p id="productname">${data[key].name}  </p>
       <p id="brandname">${data[key].brand}</p>
